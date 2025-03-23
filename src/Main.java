@@ -4,6 +4,7 @@ public class Main {
         monkey.speak();
 
         Cat orange = new Cat();
-        System.out.print(orange.health);
+        System.out.print(orange.getHealth());
+        
     }
 }

@@ -20,7 +20,7 @@ public class Animal {
         return sound;
     }
 
-    public void setSound(String sound) {        // We cab alternatively use 'this' keyword to specify the object member
+    public void setSound(String sound) {        // We can alternatively use 'this' keyword to specify the object member
         this.sound = sound;
     }
 
@@ -35,7 +35,7 @@ public class Animal {
     public Animal() {
         health = 100;
         numLegs = 4;
-        sound = "";
+        sound = "Hello!";
     }
     public Animal(int _health, int _numLegs, String _sound) {
         health = _health;
