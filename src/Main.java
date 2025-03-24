@@ -5,6 +5,6 @@ public class Main {
 
         Cat orange = new Cat();
         System.out.print(orange.getHealth());
-        
+
     }
 }
