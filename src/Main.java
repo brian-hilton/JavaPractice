@@ -6,5 +6,10 @@ public class Main {
         Cat orange = new Cat();
         System.out.print(orange.getHealth());
 
+        Cat[] kitties = new Cat[5];
+
+        kitties[0] = new Cat("Orange");
+        
+
     }
 }
